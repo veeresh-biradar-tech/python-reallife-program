@@ -16,3 +16,16 @@ def can_vote(age):
 
 age= int(input("Enter Your Age : "))
 print(can_vote)
+
+# Using try and except Block
+def vote(gae):
+    return "Able To Vote"
+
+while True:
+    try:
+        age= int(input("Enter Age : "))
+        print(vote(age))
+        break
+    except ValueError:
+        print("Please Enter Valid Age")
+        continue
