@@ -3,3 +3,10 @@
 num1= int(input("Enter Number :"))
 num2= int(input("Enter Number : "))
 print(f"Sum of {num1} + {num2} = {num1+ num2}")
+
+# Sum of two Number Using Functions
+
+def sumOfTwoNum(a: int, b: int):
+    return a+ b
+
+print(sumOfTwoNum(10, 20))
